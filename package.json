@@ -1,0 +1,23 @@
+{
+  "name": "preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s --cwd='.' --files='*.html, *.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamoona/preview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamoona/preview/issues"
+  },
+  "homepage": "https://github.com/tamoona/preview#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
